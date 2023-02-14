@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem 3rem;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.list{
+    display:flex;
+    list-style:none;
+    justify-content: space-around;
+    align-items: center;
+}
+.list li{
+    margin-right:3rem;
+}
+.button{
+    font:inherit;
+    border:none;
+    background: white;
+    color:#ccc;
+    padding:0.7rem 1.4rem;
+    cursor:pointer;
+    border-radius: 10px;
+}
+.button:hover,
+.button:active{
+    background:white;
+}
+
+.button:focus{
+    outline:none;
+}
+
+.register{
+    border:1px solid black;
+}
+section{
+    display:flex;
+    margin-bottom:5rem;
+}
+.text{
+    padding-left: 10rem;
+    padding-top: 2rem;
+    width:50%;
+    margin-right:7rem;
+}
+
+.text h1{
+    font-size: 5rem;
+}
+.image{
+    width:35%;
+    
+}
+.image img{
+width:100%;
+}
+.text span{
+    display: block;
+}
+
+.text p{
+    font-size: 1.3rem;
+    margin-bottom: 5rem;
+    color:#ccc;
+}
+
+.btn{
+    font:inherit;
+    background: black;
+    color:white;
+    padding:1rem 1.8rem;
+    cursor:pointer;
+    border-radius: 14px;
+    margin-bottom:10rem;
+}
+.btn:hover,
+.btn:active{
+    background:white;
+    color:black;
+}
+.clients{
+    margin-right: 2rem;
+}
+
+.drop-list{
+    list-style: none;
+    position: absolute;
+    top:12vh;
+    left:7%;
+    background: white;
+    color:#ccc;
+    border: 1px solid;
+    padding:0 1rem;
+    padding-top: 1rem;
+    border-radius: 10px;
+    display: hidden;
+    max-width: 9rem;
+}
+.drop-list span{
+margin-right: 0.2rem;
+}
+
+.drop-list li{
+    margin-bottom: 0.5rem;
+    width: 90%;
+}
+.d-list{
+    list-style: none;
+    border:1px solid;
+    position: absolute;
+    top:12vh;
+    left:18%;
+    max-width: 7rem;
+    border-radius: 10px;
+    color:#ccc;
+    background: white;
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+}
+.d-list li{
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    width: 80%;
+}
+.hidden{
+    display: none;
+}
+
+
+.flash:hover{
+    cursor: pointer;
+}
+.flash{
+    background: none;
+    border:none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:375px){
+    
+}
